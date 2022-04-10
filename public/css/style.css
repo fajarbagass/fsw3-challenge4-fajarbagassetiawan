@@ -1,0 +1,238 @@
+/* setting semua font family */
+body {
+    font-family: Helvetica;
+    font-style: normal;
+}
+/* setting ukuran font navbar */
+#navbar li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting font BCR sidebar */
+#navbar h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* menghilangkan sidebar untuk tampilan dekstop */
+.sidebar{
+    display: none;
+}
+/* menambahkan padding top untuk main */
+.main {
+    padding-top: 45px;
+}
+/* setting posisi content main */
+.main-content {
+    padding-top: 80px;
+    padding-bottom: 26px;
+    padding-left: 117px;
+}
+/* setting semua font H1 */
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+/* setting semua font P */
+p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting design button */
+.button {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: auto;
+    border: none;
+    color: white;
+}
+/* setting ukuran button 1 */
+.button.button1 {
+    width: 81px;
+    height: 36px;
+}
+/* setting ukuran button 2 */
+.button.button2 {
+    width: 140px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting ukuran img car */
+#main img {
+    width: 663px;
+    height: 374.05px; 
+}
+/* setting posisi img girl */
+.service-img {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 54px;
+    padding-right: 56px;
+}
+/* settung posisi content our service */
+.service-content {
+    padding-top: 58px;
+    padding-left: 48px;
+}
+/* setting ukuran img girl */
+#our-service .img-s {
+    width: 432px;
+    height: 402.81;
+}
+/* setting semua font H3 */
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* setting ukuran icon list di our service */
+#our-service ul li img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+}
+/* setting ukuran font h5 di why us */
+#why-us h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* setting box why us */
+.box-whyUs{
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 268px;
+    height: 196px;
+    padding: 24px;
+}
+/* setting icon img di why us */
+.img-icons {
+    width: 32px;
+    height: 32px;
+}
+/* setting img profile di testimonial */
+.img-profile {
+    width: 80px;
+    height: 80px;
+}
+/* setting semua font H6 */
+h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+/* mengatur posisi dan ukuran testimonial card */
+.testi-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    width: 619px;
+    height: 270px; 
+    background-color: #F1F3FF;
+}
+/* setting padding buttom img rate */
+.img-rate {
+    padding-bottom: 15px;
+}
+/* setting design banner */
+.banner {
+    border: none;
+    border-radius: 13px;
+    background: #0D28A6;
+    color: #FFFFFF;
+}
+/* menghilangkan garis bawah pada list menu difooter */
+#footer ul li a {
+    text-decoration: none;
+}
+/* setting posisi img icon footer */
+.icon-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* setting responsive design untuk tampilan tablet */
+@media (max-width: 768px) {
+    /*  menampilkan side bar */
+    .sidebar{
+        display: unset;
+    }
+    /* menghilangkan navbar */
+    .navbar-d {
+        display: none;
+    }
+    /* setting ukuran img car */
+    #main img {
+        width: 100%;
+        height: 100%;
+    }
+    /* setting ukuran img girl */
+    #our-service .img-s {
+        width: 100%;
+        height: 100%;
+    }
+    /* setting ukuran testimonial card */
+    .testi-card {
+        width: 100%;
+        height: 100%; 
+    }
+    /* setting posisi section title */
+    .title-section {
+        text-align: center;
+    }
+}
+
+/* setting responsive design untuk tampilan mobile */
+@media screen and (max-width: 576px) {
+    /* setting posisi content main */
+    .main-content {
+        padding-left: 16px;
+        padding-top: 0px;
+    }
+    /* setting ukuran img car */
+    #main .main img {
+        width: 344.22px;
+        height: 199px;
+    }
+    /* setting posisi img girl */
+    .service-img {
+        justify-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    /* setting padding untuk semua section content */
+    .service-content {
+        padding: 16px 16px 0px 16px;
+    }
+    /* setting ukuran img girl */
+    #our-service .img-s {
+        width: 252px;
+        height: 228px;
+    }
+    /* setting ukuran testimonial card */
+    .testi-card {
+        flex-direction: column;
+        justify-content: center;
+        width: 328px;
+        height: 372px;
+        padding: 32px;
+    }
+    /* setting margin top pada img profile */
+    .img-profile{
+        margin-top: 40px;
+    }
+    /* setting margin left pada img rate */
+    .img-rate {
+        margin-left: 75px;
+    }
+}

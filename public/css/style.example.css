@@ -1,0 +1,204 @@
+/* default margin & padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* setting semua font family */
+body {
+    font-family: Helvetica;
+    font-style: normal;
+}
+/* setting box filter cars */
+.box-filter-cars {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    height: fit-content;
+    background: #ffffff;
+}
+/* setting tata letak box filter */
+.box-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/* setting box list filter cars */
+.box-list {
+    width: max-content;
+    height: max-content;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 13px;
+}
+/* setting box input filter cars */
+.box-input {
+    width: 210.75px;
+    height: 36px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+}
+/* select */
+select:invalid {
+    color: gray;
+}
+/* setting font filter cars */
+.text-filter, .box-list {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+/* setting button */
+.button {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: auto;
+    border: none;
+    color: white;
+}
+.button.button3 {
+    width: 92px;
+    height: 36px;
+    font-family: Helvetica !important;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.button.button4 {
+    width: 285px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting text cars card */
+.text-cars {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting cars card */
+.card {
+    width: 333px;
+    height: max-content;
+}
+/* setting font cars card */
+.card h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* setting ukuran font navbar */
+#navbar li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting font BCR sidebar */
+#navbar h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* menghilangkan sidebar untuk tampilan dekstop */
+.sidebar{
+    display: none;
+}
+/* menambahkan padding top untuk main */
+.main {
+    padding-top: 45px;
+}
+/* setting posisi content main */
+.main-content {
+    padding-top: 80px;
+    padding-bottom: 26px;
+    padding-left: 117px;
+}
+/* setting semua font H1 */
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+/* setting semua font P */
+p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting ukuran button 1 */
+.button.button1 {
+    width: 81px;
+    height: 36px;
+}
+/* setting ukuran button 2 */
+.button.button2 {
+    width: 140px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* setting ukuran img car */
+#main img {
+    width: 663px;
+    height: 374.05px; 
+}
+/* setting semua font H6 */
+h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+/* menghilangkan garis bawah pada list menu difooter */
+#footer ul li a {
+    text-decoration: none;
+}
+/* setting posisi img icon footer */
+.icon-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* setting responsive design untuk tampilan tablet */
+@media (max-width: 768px) {
+    /*  menampilkan side bar */
+    .sidebar{
+        display: unset;
+    }
+    /* menghilangkan navbar */
+    .navbar-d {
+        display: none;
+    }
+    /* setting ukuran img car */
+    #main img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* setting responsive design untuk tampilan mobile */
+@media screen and (max-width: 576px) {
+    /* setting posisi content main */
+    .main-content {
+        padding-left: 16px;
+        padding-top: 0px;
+    }
+    /* setting ukuran img car */
+    #main .main img {
+        width: 344.22px;
+        height: 199px;
+    }
+    /* setting padding filter-car */
+    #filter-cars {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
